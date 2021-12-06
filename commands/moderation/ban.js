@@ -61,7 +61,7 @@ module.exports = {
                 let embed = new MessageEmbed()
                     .setColor("RED")
                     .setAuthor(banMember.user.tag)
-                    .setFooter("Coded by: Tech Boy Gaming")
+                    .setFooter("RXNationHelper")
                     .setThumbnail(banMember.user.displayAvatarURL())
                     .setDescription(`✅ **${banMember.user.tag}** successfully banned!`)
                 if (i == 1)

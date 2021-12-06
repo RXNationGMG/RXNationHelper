@@ -30,7 +30,7 @@ module.exports = {
                                 **Description** :Bans a Member from a Guild\n
                                 **aliases** : jabsdk\n
                                 **usage**: ban <@user/ID> [reason]\n `)
-                .setFooter("Coded by: Tech Boy Gaming")
+                .setFooter("RXNationHelper")
                 .setTimestamp()
             return message.channel.send(missingArgs);
         }
@@ -42,13 +42,13 @@ module.exports = {
                 .setColor("RED")
                 .setAuthor(message.author.tag)
                 .setDescription("I dont have the permissions to ban users!")
-                .setFooter("Coded by: Tech Boy Gaming")
+                .setFooter("RXNationHelper")
         )
 
         let Sembed = new MessageEmbed()
             .setColor("RED")
             .setAuthor(banMember.user.tag)
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("RXNationHelper")
             .setThumbnail(banMember.user.displayAvatarURL())
             .setDescription(`> You've been banned from ${message.guild.name} because of ${reason}. You are permanently banned.`)
         let i = 0;

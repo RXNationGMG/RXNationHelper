@@ -1,0 +1,24 @@
+{
+  "colour": "BLUE",
+  "wrongcolour": "RED",
+  "footertext": "RXNationHelper",
+  "footericon": "https://media.discordapp.net/attachments/889545270935818280/893189768878379068/channels4_profile.jpg",
+  "WelcomeImage " : "https://wallpaperscraft.com/wallpaper/city_buildings_silhouettes_212901",
+  "categories": {
+    "games": "🎮",
+    "config": "⚙️",
+    "automod" : "👍",
+    "giveaway": "🎉",
+    "information": "📻",
+    "moderation": "🔨",
+    "music": "🎵",
+    "musicfilter": "🎼",
+    "owner": "👑",
+    "leveling": "🎂",
+    "ticket": "🎫",
+    "utility": ":comet:",
+    "welcome_leave": "✨",
+    "rr_roles": "🎁",
+    "yt_poster" : "❤"
+  }
+}

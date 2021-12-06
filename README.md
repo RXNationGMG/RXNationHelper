@@ -1,1 +1,2 @@
-Just A Discord Bot :)
+# RXNationHelper
+The best discord bot than RXNationBot

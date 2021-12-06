@@ -17,7 +17,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("**You Dont Have The Permissions To Mute Users! - [BAN_MEMBERS]**")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("RXNationHelper")
         );
 
         let banMember = message.mentions.members.first() || message.guild.members.cache.get(args[0])

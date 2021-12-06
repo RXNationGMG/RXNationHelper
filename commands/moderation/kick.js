@@ -25,7 +25,7 @@ module.exports = {
                                 **Description** : Kick a user from the guild.\n
                                 **aliases** : nikal\n
                                 **usage**: kick <@user/ID> [reason]\n `)
-                .setFooter("RXNationHelpe")
+                .setFooter("RXNationHelper")
                 .setTimestamp()
             return message.channel.send(missingArgs);
         }
